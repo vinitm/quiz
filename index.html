@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+</style>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="full-height container valign-wrapper">
+        <div class="valign horizontal-center">
+            <div class="row">
+                <div class="heading s12">
+                    <h1>SSC CGL Papers Quiz</h1>
+                </div>
+            </div>
+            <form class="row" action="papers/paper.html" method="get">
+                <div class="col s12 m3">
+                    <select name="year" id="year">
+                        <option value="" disabled selected>Year</option>
+                        <option value="2015">2015</option>
+                    </select>
+                </div>
+                <div class="col m3 s12">
+                    <select name="date" id="date">
+                        <option value="" disabled selected>Date</option>
+                        <option value="16th August">16th August</option>
+                    </select>
+                </div>
+                <div class="col m3 s12">
+                    <select name="shift" id="shift">
+                        <option value="" disabled selected>Shift</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Evening">Evening</option>
+                    </select>
+                </div>
+                <button type="submit" class="start-btn waves-effect waves-light btn col m2 s12">Start</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+<script src="index.js"></script>
+
+</html>

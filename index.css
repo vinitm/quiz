@@ -1,0 +1,14 @@
+.heading {
+    position: relative;
+    height: 150px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.heading h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin: 0px;
+}

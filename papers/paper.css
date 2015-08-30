@@ -1,0 +1,92 @@
+.mcard {
+    background: white;
+    height: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.mcard .question {
+    width: 100%;
+}
+
+ol > li:before {
+    background-color: #EE6E73;
+}
+
+ol ol > li:before {
+    background-color: rgb(26, 177, 136);
+    content: counter(li, lower-alpha);
+}
+
+li>.question {
+    padding-left: 29px;
+    background-color: #5C5757;
+}
+
+.question {
+    height: auto;
+    padding: 15px 25px 15px 25px;
+    /* background-color: #EE6E73;*/
+    
+    background-color: #5C5757;
+    color: white;
+    font-size: 17px;
+}
+
+.paper {
+    height: auto;
+    width: 100%;
+}
+
+.paper .mcard {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.answer {
+    font-size: 17px;
+    min-height: 55px;
+    color: #5C5757;
+}
+
+.content {
+    padding: 5%;
+}
+
+.content img {
+    width: 50%;
+}
+
+.answers {
+    height: auto;
+    width: 100%;
+}
+
+.row .col {
+    padding: 0px;
+}
+
+.footer-fixed {
+    height: 64px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+main {
+    overflow: auto;
+    position: fixed;
+    top: 64px;
+    bottom: 64px;
+    left: 0;
+    right: 0;
+}
+
+nav{
+    background-color: white;
+box-shadow: none;}
+
+body{
+background-color: #EEEEEE}
